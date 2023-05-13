@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemList renders correctly 1`] = `
+<ul>
+  <li>
+    Item 1
+  </li>
+  <li>
+    Item 2
+  </li>
+  <li>
+    Item 3
+  </li>
+</ul>
+`;
+
+exports[`itemList renders correctly 1`] = `
+<itemList
+  items={
+    [
+      {
+        "id": 1,
+        "name": "Item 1",
+      },
+      {
+        "id": 2,
+        "name": "Item 2",
+      },
+      {
+        "id": 3,
+        "name": "Item 3",
+      },
+    ]
+  }
+/>
+`;
